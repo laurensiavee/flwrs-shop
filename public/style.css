@@ -1,0 +1,187 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+/* margin */
+.mp-0 {
+    margin: 0;
+    padding: 0;
+}
+
+.mh-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mv-center {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* font */
+.font-thicc {
+    font-family:'Gill Sans MT';
+}
+
+/* container */
+.ctr-2 {
+    width: 50%;
+}
+
+.ctr-2a {
+    width: 50%;
+}
+
+.ctr-3 {
+    width: 33%;
+}
+
+.ctr-70 {
+    width: 70%;
+}
+
+.ctr-70a {
+    width: 70%;
+}
+
+.ctr-20 {
+    width: 20%;
+}
+
+.ctr-30 {
+    width: 30%;
+}
+
+.ctr-140p {
+    width: 140px;
+}
+
+/* align */
+.align-l {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.align-r {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+/* image sizing */
+.img-round {
+    border-radius: 50%;
+}
+
+.logo-img {
+    width: 90px;
+    height: max-content;
+}
+
+.logo-nav {
+    width: 35px;
+    height: max-content;
+}
+
+.icon-img {
+    width: 35px;
+    height: max-content;
+}
+
+.med-img {
+    max-width: 300px;
+}
+
+.big-logo-img {
+    width: 175px;
+    height: max-content;
+}
+
+.card-w {
+    width: 250px;
+    /* min-width: 250px; */
+    flex-shrink: 0;
+}
+
+.thum-img-rz {
+    width: 200px;
+    height: 200px;
+}
+
+.detail-img-rz {
+    width: 300px;
+    height: 300px;
+}
+
+.label-sz {
+    width: 300px;
+}
+
+/* col */
+.col-pink {
+    color: rgb(236, 89, 150);
+}
+
+.btn-c-1 {
+    background-color: rgb(236, 236, 145);
+}
+
+/* media */
+@media (max-width: 650px) {
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .ctr-2, .ctr-3, .ctr-70, .ctr-30, .ctr-2a, .ctr-70a, .ctr-20{
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .ctr-2a, .ctr-70a {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: left;
+    }
+
+    .align-l, .align-r {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/* test */
+.bg-col {
+    background-color: aquamarine;
+}
+
+/* card */
+.cards {
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 0rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 0));
+}
+
+.card {
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* form */
+.form-control .ctr-140p {
+    width: 140px;
+}
